@@ -46,9 +46,9 @@ const Navbar = () => {
 
   return (
     <div className={window.scrollY>=window.innerHeight?
-     "flex justify-between items-center w-full h-20 px-4 text-black bg-white fixed z-10" 
+     "flex justify-between items-center w-full h-20 px-4 text-black bg-white fixed z-20" 
      :
-     "flex justify-between items-center w-full h-20 px-4 text-black bg-transparent duration-300 fixed z-10"}>
+     "flex justify-between items-center w-full h-20 px-4 text-black bg-transparent duration-300 fixed z-20"}>
         <div>
             {window.scrollY>=window.innerHeight>0 ? <img src={logo} width="75"/> : <img src={logo} width="75"/>}
         </div>      
